@@ -14,6 +14,9 @@ public class Main {
             case 2:
                 fact();
                 break;
+            case 3:
+                log();
+                break;
 
         }
     }
@@ -39,6 +42,15 @@ public class Main {
             f=f*i;
         }
         System.out.println("Factorial of "+ n +" is : "+f);
+    }
+
+    public static void log()
+    {
+        System.out.print("Enter the number for which you want to find log : ");
+        Scanner s=new Scanner(System.in);
+        Double n=s.nextDouble();
+        Double ans=Math.log(n);
+        System.out.println("The log of  " + n+ " is :"+ ans);
 
     }
 }
