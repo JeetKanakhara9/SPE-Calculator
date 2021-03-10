@@ -11,6 +11,10 @@ public class Main {
             case 1 :
                 square_root();
                 break;
+            case 2:
+                fact();
+                break;
+
         }
     }
 
@@ -20,7 +24,21 @@ public class Main {
         Scanner s=new Scanner(System.in);
         Double n=s.nextDouble();
         Double ans=Math.sqrt(n);
-        System.out.println("The square root of the given number is "+ ans);
+        System.out.println("The square root of  " + n+ "is :"+ ans);
+
+    }
+
+    public static void fact()
+    {
+        System.out.print("Enter the number for which you want to find factorial : ");
+        Scanner s=new Scanner(System.in);
+        long n,f=1,i;
+        n=s.nextLong();
+        for(i=1;i<=n;i++)
+        {
+            f=f*i;
+        }
+        System.out.println("Factorial of "+ n +" is : "+f);
 
     }
 }
