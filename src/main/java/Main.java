@@ -17,6 +17,9 @@ public class Main {
             case 3:
                 log();
                 break;
+            case 4:
+                power();
+                break;
 
         }
     }
@@ -52,5 +55,16 @@ public class Main {
         Double ans=Math.log(n);
         System.out.println("The log of  " + n+ " is :"+ ans);
 
+    }
+
+    public static void power()
+    {
+        System.out.print("Enter base : ");
+        Scanner s=new Scanner(System.in);
+        Double b=s.nextDouble();
+        System.out.print("Enter exponent : ");
+        Double e=s.nextDouble();
+        Double ans=Math.pow(b,e);
+        System.out.println("The result of "+b+" raised to the power "+e+" is : "+ans);
     }
 }
