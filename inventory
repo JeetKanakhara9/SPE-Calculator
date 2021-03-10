@@ -1,1 +1,1 @@
-localhost ansible_user=mars
+127.0.1.1 ansible_user=mars
