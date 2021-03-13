@@ -1,0 +1,30 @@
+2021-03-13 11:03:10.511 [main] INFO  Calculator - Square root of num : 16.0is  : 4.0
+2021-03-13 11:25:25.355 [main] INFO  Calculator - The log of  1.0 is :0.0
+2021-03-13 11:25:25.360 [main] INFO  Calculator - Square root of num : 6.0is  : 2.449489742783178
+2021-03-13 11:25:25.360 [main] INFO  Calculator - Square root of num : 10.0is  : 3.1622776601683795
+2021-03-13 11:25:25.361 [main] INFO  Calculator - Square root of num : 12.0is  : 3.4641016151377544
+2021-03-13 11:25:25.367 [main] INFO  Calculator - Factorial of 6 is : 720
+2021-03-13 11:25:25.368 [main] INFO  Calculator - Factorial of 7 is : 5040
+2021-03-13 11:25:25.368 [main] INFO  Calculator - The log of  6.0 is :1.791759469228055
+2021-03-13 11:25:25.369 [main] INFO  Calculator - The log of  24.0 is :3.1780538303479458
+2021-03-13 11:25:25.370 [main] INFO  Calculator - The result of 6.0 raised to the power 2.0 is : 36.0
+2021-03-13 11:25:25.370 [main] INFO  Calculator - The result of 3.0 raised to the power 5.0 is : 243.0
+2021-03-13 11:25:25.371 [main] INFO  Calculator - The result of 6.0 raised to the power 3.0 is : 216.0
+2021-03-13 11:25:25.371 [main] INFO  Calculator - The result of 12.0 raised to the power 2.0 is : 144.0
+2021-03-13 11:25:25.372 [main] INFO  Calculator - Factorial of 6 is : 720
+2021-03-13 11:25:25.372 [main] INFO  Calculator - Factorial of 3 is : 6
+2021-03-13 11:27:55.606 [main] INFO  Calculator - The log of  1.0 is :0.0
+2021-03-13 11:27:55.611 [main] INFO  Calculator - Square root of num : 6.0is  : 2.449489742783178
+2021-03-13 11:27:55.611 [main] INFO  Calculator - Square root of num : 10.0is  : 3.1622776601683795
+2021-03-13 11:27:55.612 [main] INFO  Calculator - Square root of num : 144.0is  : 12.0
+2021-03-13 11:27:55.612 [main] INFO  Calculator - Square root of num : 225.0is  : 15.0
+2021-03-13 11:27:55.612 [main] INFO  Calculator - Factorial of 6 is : 720
+2021-03-13 11:27:55.613 [main] INFO  Calculator - Factorial of 7 is : 5040
+2021-03-13 11:27:55.613 [main] INFO  Calculator - The log of  6.0 is :1.791759469228055
+2021-03-13 11:27:55.613 [main] INFO  Calculator - The log of  24.0 is :3.1780538303479458
+2021-03-13 11:27:55.614 [main] INFO  Calculator - The result of 6.0 raised to the power 2.0 is : 36.0
+2021-03-13 11:27:55.614 [main] INFO  Calculator - The result of 3.0 raised to the power 5.0 is : 243.0
+2021-03-13 11:27:55.615 [main] INFO  Calculator - The result of 6.0 raised to the power 3.0 is : 216.0
+2021-03-13 11:27:55.615 [main] INFO  Calculator - The result of 12.0 raised to the power 2.0 is : 144.0
+2021-03-13 11:27:55.616 [main] INFO  Calculator - Factorial of 6 is : 720
+2021-03-13 11:27:55.616 [main] INFO  Calculator - Factorial of 3 is : 6
