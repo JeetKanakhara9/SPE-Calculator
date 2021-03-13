@@ -28,3 +28,6 @@
 2021-03-13 11:27:55.615 [main] INFO  Calculator - The result of 12.0 raised to the power 2.0 is : 144.0
 2021-03-13 11:27:55.616 [main] INFO  Calculator - Factorial of 6 is : 720
 2021-03-13 11:27:55.616 [main] INFO  Calculator - Factorial of 3 is : 6
+2021-03-13 17:56:56.995 [main] INFO  Calculator - The result of 5.0 raised to the power 4.0 is : 625.0
+2021-03-13 18:02:15.376 [main] INFO  Calculator - Factorial of 10 is : 3628800
+2021-03-13 18:02:24.454 [main] INFO  Calculator - The result of 2.0 raised to the power 10.0 is : 1024.0

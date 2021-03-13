@@ -3,37 +3,47 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class Calculator {
     private static final Logger logger = LogManager.getLogger(Calculator.class);
-    public static void  main(String args[])
-    {
-        Scanner s=new Scanner(System.in);
-        System.out.println("Please enter a Choice\n1.Square Root\n2.Factorial\n3.Log\n4.Power");
-        int ch=s.nextInt();
-        switch(ch)
-        {
-            case 1 :
-                System.out.print("Enter the number for which you want to find square root : ");
-                Double n=s.nextDouble();
-                square_root(n);
-                break;
-            case 2:
-                System.out.print("Enter the number for which you want to find factorial : ");
-                long num=s.nextLong();
-                fact(num);
-                break;
-            case 3:
-                System.out.print("Enter the number for which you want to find log : ");
-                Double l=s.nextDouble();
-                log(l);
-                break;
-            case 4:
-                System.out.print("Enter base : ");
-                Double b=s.nextDouble();
-                System.out.print("Enter exponent : ");
-                Double e=s.nextDouble();
-                power(b,e);
-                break;
+    public static void  main(String args[]) {
+        Scanner s = new Scanner(System.in);
+        int f=0;
+        do {
+            System.out.println("Please enter a Choice\n1.Square Root\n2.Factorial\n3.Log\n4.Power\n5.Exit");
+            int ch=s.nextInt();
+            while (ch < 1 || ch > 5){
+                System.out.println("Please Enter a valid choice : ");
+                System.out.println("Please enter a Choice\n1.Square Root\n2.Factorial\n3.Log\n4.Power\n5.Exit");
+                ch = s.nextInt();
+            }
+            switch (ch) {
+                case 1:
+                    System.out.print("Enter the number for which you want to find square root : ");
+                    Double n = s.nextDouble();
+                    square_root(n);
+                    break;
+                case 2:
+                    System.out.print("Enter the number for which you want to find factorial : ");
+                    long num = s.nextLong();
+                    fact(num);
+                    break;
+                case 3:
+                    System.out.print("Enter the number for which you want to find log : ");
+                    Double l = s.nextDouble();
+                    log(l);
+                    break;
+                case 4:
+                    System.out.print("Enter base : ");
+                    Double b = s.nextDouble();
+                    System.out.print("Enter exponent : ");
+                    Double e = s.nextDouble();
+                    power(b, e);
+                    break;
+                case 5:
+                    System.out.println("Thank You !!");
+                    f=1;
+                    break;
 
-        }
+            }
+        }while(f!=1);
     }
 
     public static double square_root(Double n)
