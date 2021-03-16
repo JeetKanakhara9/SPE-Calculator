@@ -6,10 +6,6 @@
       docker_image:
         name: jeetkanakhara/spe-calculator
         source: pull
-    - name: Create default containers
-      docker_container:
-        name: c1
-        image: jeetkanakhara/spe-calculator
-        state: present
+
 
 

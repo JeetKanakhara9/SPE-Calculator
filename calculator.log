@@ -31,3 +31,18 @@
 2021-03-13 17:56:56.995 [main] INFO  Calculator - The result of 5.0 raised to the power 4.0 is : 625.0
 2021-03-13 18:02:15.376 [main] INFO  Calculator - Factorial of 10 is : 3628800
 2021-03-13 18:02:24.454 [main] INFO  Calculator - The result of 2.0 raised to the power 10.0 is : 1024.0
+2021-03-13 19:20:05.351 [main] INFO  Calculator - The log of  1.0 is :0.0
+2021-03-13 19:20:05.357 [main] INFO  Calculator - Square root of num : 6.0is  : 2.449489742783178
+2021-03-13 19:20:05.357 [main] INFO  Calculator - Square root of num : 10.0is  : 3.1622776601683795
+2021-03-13 19:20:05.360 [main] INFO  Calculator - Square root of num : 144.0is  : 12.0
+2021-03-13 19:20:05.360 [main] INFO  Calculator - Square root of num : 225.0is  : 15.0
+2021-03-13 19:20:05.361 [main] INFO  Calculator - Factorial of 6 is : 720
+2021-03-13 19:20:05.362 [main] INFO  Calculator - Factorial of 7 is : 5040
+2021-03-13 19:20:05.363 [main] INFO  Calculator - The log of  6.0 is :1.791759469228055
+2021-03-13 19:20:05.363 [main] INFO  Calculator - The log of  24.0 is :3.1780538303479458
+2021-03-13 19:20:05.364 [main] INFO  Calculator - The result of 6.0 raised to the power 2.0 is : 36.0
+2021-03-13 19:20:05.364 [main] INFO  Calculator - The result of 3.0 raised to the power 5.0 is : 243.0
+2021-03-13 19:20:05.365 [main] INFO  Calculator - The result of 6.0 raised to the power 3.0 is : 216.0
+2021-03-13 19:20:05.365 [main] INFO  Calculator - The result of 12.0 raised to the power 2.0 is : 144.0
+2021-03-13 19:20:05.366 [main] INFO  Calculator - Factorial of 6 is : 720
+2021-03-13 19:20:05.367 [main] INFO  Calculator - Factorial of 3 is : 6
